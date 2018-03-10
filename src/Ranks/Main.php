@@ -4,6 +4,7 @@ namespace Ranks;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
+use pocketmine\command\Command;
 use pocketmine\plugin\plugin;
 
 class Main extends PluginBase{
