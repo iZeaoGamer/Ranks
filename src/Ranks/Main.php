@@ -18,7 +18,7 @@ public function onDisable() : void{
         $this->getLogger()->info("Plugin disabled.");
 }
 
-public function onCommand(CommandSender $sender, Command $command, sring $label, array $args) : bool{
+public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
     if($strtolower($command->getName()) == "vmranks") {
         if($sender->hasPermission("ranks.vmranks")) {
         $sender->sendMessage("§7[§6Void§bFactions§cPE§dRANKS§7]");
