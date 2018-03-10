@@ -18,7 +18,7 @@ public function onDisable() : void{
 }
 
 public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
-    if($strtolower($command->getName()) == "vmranks") {
+    if(strtolower($command->getName()) == "vmranks") {
         if($sender->hasPermission("ranks.vmranks")) {
         $sender->sendMessage("§7[§6Void§bFactions§cPE§dRANKS§7]");
         $sender->sendMessage("§aHere are a list of timed ranks you can have and the minutes on them:");
@@ -43,7 +43,7 @@ public function onCommand(CommandSender $sender, Command $command, string $label
         }
     }
     
-    if($strtolower($command->getName()) == "staffranks") {
+    if(strtolower($command->getName()) == "staffranks") {
        if($sender->hasPermission("ranks.staffranks")) {
        $sender->sendMessage("§7[§6Void§bFactions§cPE§dSTAFfRANKS§7]");
        $sender->sendMessage("§aHere are a list of Staff ranks we have in order:");
