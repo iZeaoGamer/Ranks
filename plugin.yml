@@ -1,0 +1,22 @@
+name: Ranks
+author: VMPE Development Team
+version: 1.0.0
+api: 3.0.0-ALPHA11
+main: Ranks\Main
+description: Ranks check for Timed ranks. (Provided for VoidFactionsPE), and not meant for other servers.
+commands:
+    vmranks:
+        description: Checks a list of timed ranks command.
+        permission: ranks.vmranks
+        
+    staffranks:
+        description: Checks a list of staff ranks in order.
+        permission: ranks.staffranks
+permissions:
+    ranks.vmranks:
+        default: true
+        description: Permission for /vmranks.
+        
+    ranks.staffranks:
+    default: false
+    description: Permission to see staff ranks (In order.)
