@@ -13,10 +13,8 @@ commands:
         description: Checks a list of staff ranks in order.
         permission: ranks.staffranks
 permissions:
-    ranks.vmranks:
-        default: true
-        description: Permission for /vmranks.
-        
-    ranks.staffranks:
+  ranks.vmranks:
+    default: true
+    
+  ranks.staffranks:
     default: false
-    description: Permission to see staff ranks (In order.)
