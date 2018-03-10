@@ -1,4 +1,5 @@
 <?php
+namespace Ranks;
 
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
@@ -12,7 +13,7 @@ public function onEnable() : void{
     $this->getLogger()->info("Plugin enabled.");
 }
 
-public function onDisable() {
+public function onDisable() : void{
         $this->getLogger()->info("Plugin disabled.");
 }
 
